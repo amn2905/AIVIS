@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-canvas: #FAFAFB;
+    --bg-secondary: #F4F5F7;
+    --bg-card: #FFFFFF;
+    --border-color: #E8EAF0;
+    --color-text-primary: #111827;
+    --color-text-secondary: #6B7280;
+    --color-text-muted: #9CA3AF;
+
+    --accent-indigo: #6366F1;
+    --accent-indigo-dark: #4F46E5;
+    --accent-indigo-light: #EEF2FF;
+    --accent-slate: #475569;
+    
+    --status-success: #10B981;
+    --status-success-bg: #ECFDF5;
+    --status-warning: #F59E0B;
+    --status-warning-bg: #FFFBEB;
+    --status-critical: #F43F5E;
+    --status-critical-bg: #FFF1F2;
+    --status-info: #0EA5E9;
+    --status-info-bg: #F0F9FF;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--color-text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom White Claymorphism Shadow Utilities */
+.shadow-clay-sm {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.02), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.shadow-clay-md {
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.04), 0 2px 8px 0 rgba(0, 0, 0, 0.02);
+}
+
+.shadow-clay-lg {
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.06), 0 4px 12px 0 rgba(0, 0, 0, 0.03);
+}
+
+.shadow-clay-inset {
+  box-shadow: inset 0 1px 2px 0 rgba(255, 255, 255, 0.8), inset 0 -1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Custom Background Grid Pattern */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.5) 1px, transparent 1px);
+}
