@@ -134,7 +134,7 @@ Proprietary Enterprise Software. All Rights Reserved. ISO 27001 & ISO 21434 Veri
 <div align="center">
 
 ### **Mohd Amaan Hamid**
-*Lead AI Systems Architect & Full-Stack Engineer*
+*Lead AI Systems Architect & Multi-Agent AI & Cybersecurity Specialist*
 
 [![GitHub](https://img.shields.io/badge/GitHub-amn2905-181717?style=for-the-badge&logo=github)](https://github.com/amn2905)
 [![Email](https://img.shields.io/badge/Email-amn057207%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amn057207@gmail.com)
