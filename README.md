@@ -126,3 +126,20 @@ Complete enterprise technical documentation is available in the [`docs/`](docs/)
 ## 📄 License & Compliance
 
 Proprietary Enterprise Software. All Rights Reserved. ISO 27001 & ISO 21434 Verified.
+
+---
+
+## 👨‍💻 Designed & Developed By
+
+<div align="center">
+
+### **Mohd Amaan Hamid**
+*Lead AI Systems Architect & Full-Stack Engineer*
+
+[![GitHub](https://img.shields.io/badge/GitHub-amn2905-181717?style=for-the-badge&logo=github)](https://github.com/amn2905)
+[![Email](https://img.shields.io/badge/Email-amn057207%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amn057207@gmail.com)
+
+**Engineered with ❤️ for Next-Generation AI Vehicle Forensics & Enterprise Fraud Investigation.**
+
+</div>
+
